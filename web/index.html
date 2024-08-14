@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yummy Chef</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="main.dart.js" type="application/javascript"></script>
+</head>
+<body>
+  <script>
+    window.addEventListener('load', function() {
+      // This script ensures that the Dart app starts properly after the page is loaded.
+      if (typeof loadMainDartJs === 'function') {
+        loadMainDartJs();
+      }
+    });
+  </script>
+</body>
+</html>

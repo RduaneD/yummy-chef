@@ -1,0 +1,42 @@
+name: yummy_chef
+description: Project Resep Makanan
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  firebase_core: ^3.2.0
+  firebase_auth: ^5.1.0
+  cloud_firestore: ^5.0.0
+  flutter_local_notifications: ^14.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/cendol.jpg
+    - assets/pizza.jpg
+    - assets/nasi_goreng.jpg
+    - assets/Apple_Pie.jpg
+    - assets/burger.jpg
+    - assets/Clam_Chowder.jpg
+    - assets/es_kopi_susu.jpg
+    - assets/Freakshake.jpg
+    - assets/Kimchi.jpg
+    - assets/lumpia.jpg
+    - assets/Nem_Chua_Rán.jpg
+    - assets/Nigiri_Sushi.jpg
+    - assets/Pad_Thai.jpg
+    - assets/Pho.jpg
+    - assets/strawberry_trifle.jpg
+    - assets/Tom_Yum_Goong.jpg
+    - assets/Tonkotsu_Ramen.jpg
+    - assets/Tteokbokki.jpg
